@@ -1,0 +1,37 @@
+<web-app>
+    <servlet>
+        <servlet-name>AddStudent</servlet-name>
+        <servlet-class>servlet.AddStudentServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>AddStudent</servlet-name>
+        <url-pattern>/add</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>ViewStudents</servlet-name>
+        <servlet-class>servlet.ViewStudentsServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>ViewStudents</servlet-name>
+        <url-pattern>/view</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>DeleteStudent</servlet-name>
+        <servlet-class>servlet.DeleteStudentServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>DeleteStudent</servlet-name>
+        <url-pattern>/delete</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>EditStudent</servlet-name>
+        <servlet-class>servlet.EditStudentServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>EditStudent</servlet-name>
+        <url-pattern>/edit</url-pattern>
+    </servlet-mapping>
+</web-app>
